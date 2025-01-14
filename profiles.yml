@@ -1,0 +1,13 @@
+legacy_sql:
+  outputs:
+    dev:
+      type: duckdb
+      path: "md:dev_legacy?motherduck_token={{env_var('MOTHERDUCK_TOKEN')}}"
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: "md:prod_legacy?motherduck_token={{env_var('MOTHERDUCK_TOKEN')}}"
+      threads: 4
+
+  target: dev

@@ -1,0 +1,8 @@
+# Ignore dbt-specific directories
+target/
+dbt_packages/
+logs/
+
+# Ignore environment variables file
+.env
+
