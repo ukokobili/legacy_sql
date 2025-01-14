@@ -4,6 +4,7 @@ dbt_packages/
 logs/
 
 # Ignore environment variables file and script
+.vscode
 .env
 env_vars.sh
 
