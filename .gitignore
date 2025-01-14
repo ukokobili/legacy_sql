@@ -3,6 +3,7 @@ target/
 dbt_packages/
 logs/
 
-# Ignore environment variables file
+# Ignore environment variables file and script
 .env
+env_vars.sh
 
