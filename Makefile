@@ -4,7 +4,7 @@ chmodx:
 
 # Source the env_vars.sh script to set environment variables
 script:
-	./env_vars.sh
+	. ./env_vars.sh
 
 # Echo the MOTHERDUCK_TOKEN environment variable
 echoes:
